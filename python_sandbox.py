@@ -11,3 +11,15 @@ luxurious_lamp_description = 'Luxurious Lamp. Glass and iron. 36 inches tall. Br
 luxurious_lamp_price = 52.15
 
 sales_tax = .088
+
+customer_one_total = 0
+
+customer_one_itemization = ''
+
+customer_one_total += lovely_loveseat_price
+
+customer_one_itemization += lovely_loveseat_description
+
+customer_one_total += luxurious_lamp_price
+
+customer_one_itemization += luxurious_lamp_description
