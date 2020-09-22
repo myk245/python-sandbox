@@ -49,3 +49,13 @@ def mult_x_add_y(number, x, y):
 mult_x_add_y(5, 2, 3)
 
 mult_x_add_y(1, 3, 1)
+
+
+# Define create_spreadsheet():
+def create_spreadsheet(title, row_count=1000):
+  print("Creating a spreadsheet called "+title +
+        " with " + str(row_count) + " rows")
+
+
+# Call create_spreadsheet() below with the required arguments:
+create_spreadsheet(title="Applications", row_count=10)
