@@ -59,3 +59,17 @@ def create_spreadsheet(title, row_count=1000):
 
 # Call create_spreadsheet() below with the required arguments:
 create_spreadsheet(title="Applications", row_count=10)
+
+
+# mutliple return values
+def get_boundaries(target, margin):
+  low_limit = target - margin
+  high_limit = target + margin
+
+  return low_limit, high_limit
+
+
+low, high = get_boundaries(100, 20)
+
+print(low)
+print(high)
