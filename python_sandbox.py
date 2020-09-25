@@ -93,3 +93,12 @@ def c_to_f(c_temp):
 c0_in_fahrenheit = c_to_f(0)
 
 print(c0_in_fahrenheit)
+
+
+def get_force(mass, acceleration):
+  return mass * acceleration
+
+
+train_force = get_force(train_mass, train_acceleration)
+
+print(train_force)
