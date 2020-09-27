@@ -75,3 +75,13 @@ print(tip(10, 25))
 # should print 2.5
 print(tip(0, 100))
 # should print 0.0
+
+
+# Write your introduction function here:
+def introduction(first_name, last_name):
+  return last_name + ',' + ' ' + first_name + ' ' + last_name
+# Uncomment these function calls to test your introduction function:
+print(introduction("James", "Bond"))
+# should print Bond, James Bond
+print(introduction("Maya", "Angelou"))
+# should print Angelou, Maya Angelou
