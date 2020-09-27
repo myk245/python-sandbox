@@ -22,3 +22,17 @@ print(square_root(16))
 # should print 4
 print(square_root(100))
 # should print 10
+
+# Write your win_percentage function here:
+
+
+def win_percentage(wins, losses):
+  percent_win = wins/(wins + losses) * 100
+  return percent_win
+
+
+# Uncomment these function calls to test your win_percentage function:
+print(win_percentage(5, 5))
+# should print 50
+print(win_percentage(10, 0))
+# should print 100
