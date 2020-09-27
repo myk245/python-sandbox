@@ -27,8 +27,7 @@ print(square_root(100))
 
 
 def win_percentage(wins, losses):
-  percent_win = wins/(wins + losses) * 100
-  return percent_win
+   return wins/(wins + losses) * 100
 
 
 # Uncomment these function calls to test your win_percentage function:
