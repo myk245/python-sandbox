@@ -115,8 +115,6 @@ print(lots_of_math(1, 1, 1, 1))
 # should print 2, 0, 0, 0
 
 # Relational Operators
-
-
 def greater_than(x, y):
   if x == y:
     return "These numbers are the same"
@@ -124,3 +122,10 @@ def greater_than(x, y):
     return x
   if y > x:
     return y
+
+
+def graduation_reqs(credits):
+  if credits >= 120:
+    return "You have enough credits to graduate!"
+
+print(graduation_reqs(120))
