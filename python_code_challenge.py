@@ -155,3 +155,19 @@ def graduation_reqs(gpa, credits):
     return "Your GPA is not high enough to graduate."
   else:
     return "You do not meet the GPA or the credit requirement for graduation."
+
+#  else if 
+grade = ""
+
+def grade_converter(gpa):
+  if (gpa >= 4.0):
+    grade = "A"
+  elif (gpa >= 3.0):
+    grade = "B"
+  elif (gpa >= 2.0):
+    grade = "C"
+  elif (gpa >= 1.0):
+    grade = "D"
+  elif (gpa >= 0.0):
+    grade = "F"
+  return grade
