@@ -124,8 +124,7 @@ def greater_than(x, y):
     return y
 
 
-def graduation_reqs(credits):
-  if credits >= 120:
-    return "You have enough credits to graduate!"
+def graduation_reqs(gpa, credits):
+  if (gpa >= 2.0) and (credits >= 120):
+    return "You meet the requirements to graduate!"
 
-print(graduation_reqs(120))
