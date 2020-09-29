@@ -123,8 +123,14 @@ def greater_than(x, y):
   if y > x:
     return y
 
+# Boolean Operators 
 
+# and
 def graduation_reqs(gpa, credits):
   if (gpa >= 2.0) and (credits >= 120):
     return "You meet the requirements to graduate!"
 
+# or
+def graduation_mailer(gpa, credits):
+  if (credits >= 120) or (gpa >= 2.0):
+    return True
