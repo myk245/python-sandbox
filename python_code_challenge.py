@@ -113,3 +113,14 @@ print(lots_of_math(1, 2, 3, 4))
 # should print 3, -1, -3, 0
 print(lots_of_math(1, 1, 1, 1))
 # should print 2, 0, 0, 0
+
+# Relational Operators
+
+
+def greater_than(x, y):
+  if x == y:
+    return "These numbers are the same"
+  if x > y:
+    return x
+  if y > x:
+    return y
