@@ -171,3 +171,12 @@ def grade_converter(gpa):
   elif (gpa >= 0.0):
     grade = "F"
   return grade
+
+# try/except 
+def raises_value_error():
+  raise ValueError
+
+try:
+  raises_value_error()
+except ValueError:
+  print("You raised a ValueError!")
